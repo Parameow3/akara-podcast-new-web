@@ -30,10 +30,13 @@ import javafx.scene.layout.HBox;
 import model.Podcast;
 import model.RecentlyPlayed;
 
-import java.io.*;
-import java.net.MalformedURLException;
+import java.io.IOException;
+import java.io.ObjectInputStream;
 import java.net.URL;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+import java.util.ResourceBundle;
 
 
 public class DiscoverController implements Initializable {
@@ -129,58 +132,47 @@ public class DiscoverController implements Initializable {
             e.printStackTrace();
         }
 
-        // one init is enough
-        if (!MainFormController.init) {
-            System.out.println("Do it!");
-            // Initialize the lists of podcasts to be displayed in the Discover page
+        popularPodcast = new ArrayList<>(getPopularPodcast());
+        topPodcastInGaming = new ArrayList<>(getTopPodcastInGaming());
+        topPodcastInTechnology = new ArrayList<>(getTopPodcastInTechnology());
+        topPodcastInHistory = new ArrayList<>(getTopPodcastInHistory());
+        topPodcastInComedy = new ArrayList<>(getTopPodcastInComedy());
+        topPodcastInProgrammingLanguage = new ArrayList<>(getTopPodcastInProgrammingLanguage());
+        try {
 
-            popularPodcast = new ArrayList<>(getPopularPodcast());
-            topPodcastInGaming = new ArrayList<>(getTopPodcastInGaming());
-            topPodcastInTechnology = new ArrayList<>(getTopPodcastInTechnology());
-            topPodcastInHistory = new ArrayList<>(getTopPodcastInHistory());
-            topPodcastInComedy = new ArrayList<>(getTopPodcastInComedy());
-            topPodcastInProgrammingLanguage = new ArrayList<>(getTopPodcastInProgrammingLanguage());
-
-            try {
-
-                for (Podcast podcast : popularPodcast) {
-                    popularPane = getAnchorPane(podcast);
-                    popularPodcastContainer.getChildren().add(popularPane);
-                }
-
-                for (Podcast podcast : topPodcastInGaming) {
-                    topGamingPane = getAnchorPane(podcast);
-                    topPodcastInGamingContainer.getChildren().add(topGamingPane);
-                }
-
-                for (Podcast podcast : topPodcastInTechnology) {
-                    topTechPane = getAnchorPane(podcast);
-                    topPodcastInTechnologyContainer.getChildren().add(topTechPane);
-                }
-
-                for (Podcast podcast : topPodcastInHistory) {
-                    topHistoryPane = getAnchorPane(podcast);
-                    topPodcastInHistoryContainer.getChildren().add(topHistoryPane);
-                }
-
-                for (Podcast podcast : topPodcastInComedy) {
-                    topComedyPane = getAnchorPane(podcast);
-                    topPodcastInComedyContainer.getChildren().add(topComedyPane);
-                }
-
-                for (Podcast podcast : topPodcastInProgrammingLanguage) {
-                    topProgrammingPane = getAnchorPane(podcast);
-                    topPodcastInProgrammingLanguageContainer.getChildren().add(topProgrammingPane);
-                }
-
-            } catch (IOException e) {
-                e.printStackTrace();
+            for (Podcast podcast : popularPodcast) {
+                popularPane = getAnchorPane(podcast);
+                popularPodcastContainer.getChildren().add(popularPane);
             }
 
+            for (Podcast podcast : topPodcastInGaming) {
+                topGamingPane = getAnchorPane(podcast);
+                topPodcastInGamingContainer.getChildren().add(topGamingPane);
+            }
 
-            MainFormController.init = true;
+            for (Podcast podcast : topPodcastInTechnology) {
+                topTechPane = getAnchorPane(podcast);
+                topPodcastInTechnologyContainer.getChildren().add(topTechPane);
+            }
+
+            for (Podcast podcast : topPodcastInHistory) {
+                topHistoryPane = getAnchorPane(podcast);
+                topPodcastInHistoryContainer.getChildren().add(topHistoryPane);
+            }
+
+            for (Podcast podcast : topPodcastInComedy) {
+                topComedyPane = getAnchorPane(podcast);
+                topPodcastInComedyContainer.getChildren().add(topComedyPane);
+            }
+
+            for (Podcast podcast : topPodcastInProgrammingLanguage) {
+                topProgrammingPane = getAnchorPane(podcast);
+                topPodcastInProgrammingLanguageContainer.getChildren().add(topProgrammingPane);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
 
     }
 

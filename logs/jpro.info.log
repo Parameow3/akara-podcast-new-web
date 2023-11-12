@@ -174,3 +174,758 @@
 2023-11-12 22:40:59,806 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@716dde31
 2023-11-12 22:40:59,838 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3e6fc528
 2023-11-12 22:40:59,863 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7243bb68
+2023-11-12 23:01:39,324 [INFO] from com.jpro.activity in scala-execution-context-global-30 - Starting the server
+2023-11-12 23:01:39,325 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 -  *** Starting JPro: https://www.jpro.one/ ***
+2023-11-12 23:01:39,325 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - OS: Windows 11
+2023-11-12 23:01:39,342 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - JPro: 9999.9.9
+2023-11-12 23:01:39,342 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - Java version: 17.0.5
+2023-11-12 23:01:39,342 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - JVM: 17.0.5 Oracle Corporation
+2023-11-12 23:01:39,343 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - JavaFX jar: file:/C:/Users/Admin/.m2/repository/org/openjfx/javafx-graphics/21.0.2.3-jpro+0/javafx-graphics-21.0.2.3-jpro+0-win.jar
+2023-11-12 23:01:39,344 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - Configuring logging from url: 'jar:file:/C:/Users/Admin/.m2/repository/com/sandec/jpro/jpro-server_2.12/9999.9.9/jpro-server_2.12-9999.9.9.jar!/logback-jpro-default.xml'
+2023-11-12 23:01:39,641 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 21.0.2.3-jpro+0-2023-09-27T13-12-33Z
+2023-11-12 23:01:39,712 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - finished init!
+2023-11-12 23:01:39,716 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - [JPro] -> Server started: {start_time: 1699804899323, os_name: Windows 11, jpro_version: 9999.9.9}
+2023-11-12 23:01:40,055 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2023-11-12 23:01:40,454 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2023-11-12 23:01:40,796 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2023-11-12 23:01:40,797 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2023-11-12 23:01:56,322 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - application requested: default
+2023-11-12 23:01:56,326 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - Creating Application: default
+2023-11-12 23:01:56,328 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - remoteAddress 127.0.0.1
+2023-11-12 23:01:56,329 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - host          localhost:8080
+2023-11-12 23:01:56,329 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - uri           /app/ws/default
+2023-11-12 23:01:56,488 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 648674277, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1}
+2023-11-12 23:01:59,300 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 648674277, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1}
+2023-11-12 23:01:59,704 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4c94ae28
+2023-11-12 23:01:59,791 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@291baeaf
+2023-11-12 23:01:59,827 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2d913a98
+2023-11-12 23:01:59,879 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@549abf5a
+2023-11-12 23:01:59,927 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6ab32376
+2023-11-12 23:01:59,971 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@57d86be0
+2023-11-12 23:02:00,014 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7a037b0e
+2023-11-12 23:02:00,053 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@72f44ab9
+2023-11-12 23:02:00,096 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@150e650b
+2023-11-12 23:02:00,141 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2218dce
+2023-11-12 23:02:00,180 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@155d68d0
+2023-11-12 23:02:00,201 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@60785f94
+2023-11-12 23:02:00,231 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6be48439
+2023-11-12 23:02:00,263 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@665c4b56
+2023-11-12 23:02:00,303 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@697f841
+2023-11-12 23:02:00,359 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5ba30c1b
+2023-11-12 23:02:00,401 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@213498a0
+2023-11-12 23:02:00,439 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@c229f42
+2023-11-12 23:02:00,461 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7cd32365
+2023-11-12 23:02:00,496 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@28b54dd1
+2023-11-12 23:02:00,526 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@660535b
+2023-11-12 23:02:00,553 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@afa0cd0
+2023-11-12 23:02:00,576 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5275055e
+2023-11-12 23:02:00,596 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7d50fddc
+2023-11-12 23:02:00,627 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4a783494
+2023-11-12 23:02:00,660 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@24d01d77
+2023-11-12 23:02:00,684 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@493a757f
+2023-11-12 23:02:00,718 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@206f4816
+2023-11-12 23:02:00,742 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3f850311
+2023-11-12 23:02:00,763 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2f573b4f
+2023-11-12 23:02:00,787 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@758df7bc
+2023-11-12 23:02:00,819 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@66f9e8d2
+2023-11-12 23:02:00,852 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@710cdf64
+2023-11-12 23:02:00,876 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5c730bfc
+2023-11-12 23:02:00,897 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6cc57d71
+2023-11-12 23:02:00,928 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@559acff2
+2023-11-12 23:02:00,963 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@b2b72ee
+2023-11-12 23:02:00,989 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@61f90814
+2023-11-12 23:02:01,013 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@40f0efbe
+2023-11-12 23:02:01,041 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2a9defcd
+2023-11-12 23:02:01,066 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5cbc1006
+2023-11-12 23:02:01,095 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@71779ef0
+2023-11-12 23:02:01,111 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5ad2cb00
+2023-11-12 23:02:01,128 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@a80364f
+2023-11-12 23:02:01,151 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2af6fc3d
+2023-11-12 23:02:01,179 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5e537835
+2023-11-12 23:02:01,209 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@67de5211
+2023-11-12 23:02:01,229 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2b3055ad
+2023-11-12 23:02:01,255 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2485150a
+2023-11-12 23:02:01,288 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1ab1801d
+2023-11-12 23:02:01,313 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3763b2e3
+2023-11-12 23:02:01,347 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6f710dcb
+2023-11-12 23:02:01,364 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@661022ac
+2023-11-12 23:02:01,380 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@725283fc
+2023-11-12 23:02:01,410 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6be1fa42
+2023-11-12 23:02:01,433 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3e465607
+2023-11-12 23:02:01,468 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@27088563
+2023-11-12 23:02:01,487 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@a702ce4
+2023-11-12 23:02:01,507 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3d05d815
+2023-11-12 23:02:01,531 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3fd0a801
+2023-11-12 23:02:01,546 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2ed6bad9
+2023-11-12 23:02:01,576 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@38e9d30c
+2023-11-12 23:02:01,606 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1928af82
+2023-11-12 23:02:01,632 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@62dff77b
+2023-11-12 23:02:01,655 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@20b15af3
+2023-11-12 23:02:01,680 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7f4d452c
+2023-11-12 23:02:11,470 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 648674277, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1, reason: websocket-stop}
+2023-11-12 23:02:11,477 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:02:11,477 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2023-11-12 23:02:11,484 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Sun Nov 12 23:02:11 ICT 2023      
+2023-11-12 23:02:11,484 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.002 
+2023-11-12 23:02:11,485 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.001  
+2023-11-12 23:02:11,485 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2023-11-12 23:02:11,485 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2023-11-12 23:02:11,485 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 837577
+2023-11-12 23:02:11,485 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 108078
+2023-11-12 23:02:11,485 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:02:11,705 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - application requested: default
+2023-11-12 23:02:11,706 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - Creating Application: default
+2023-11-12 23:02:11,706 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - remoteAddress 127.0.0.1
+2023-11-12 23:02:11,706 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - host          localhost:8080
+2023-11-12 23:02:11,706 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - uri           /app/ws/default
+2023-11-12 23:02:11,724 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1935081078, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1}
+2023-11-12 23:02:12,413 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1935081078, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1}
+2023-11-12 23:02:12,444 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6fcb2bb4
+2023-11-12 23:02:12,470 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4a5b5868
+2023-11-12 23:02:12,497 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@39e5803f
+2023-11-12 23:02:12,530 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@35d3f70d
+2023-11-12 23:02:12,565 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5b7e60b4
+2023-11-12 23:02:12,637 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@54c48ad0
+2023-11-12 23:02:12,674 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 648674277, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1, reason: close-tab-closed}
+2023-11-12 23:02:37,884 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1935081078, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1, reason: websocket-stop}
+2023-11-12 23:02:37,886 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:02:37,886 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2023-11-12 23:02:37,886 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Sun Nov 12 23:02:37 ICT 2023      
+2023-11-12 23:02:37,887 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.001 
+2023-11-12 23:02:37,887 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2023-11-12 23:02:37,887 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2023-11-12 23:02:37,887 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2023-11-12 23:02:37,887 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 302788
+2023-11-12 23:02:37,887 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 40389
+2023-11-12 23:02:37,887 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:02:38,058 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - application requested: default
+2023-11-12 23:02:38,058 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - Creating Application: default
+2023-11-12 23:02:38,058 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - remoteAddress 127.0.0.1
+2023-11-12 23:02:38,058 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - host          localhost:8080
+2023-11-12 23:02:38,058 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - uri           /app/ws/default
+2023-11-12 23:02:38,085 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 2117138727, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1}
+2023-11-12 23:02:38,824 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 2117138727, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1}
+2023-11-12 23:02:38,859 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3b56f70a
+2023-11-12 23:02:38,886 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7c6850d5
+2023-11-12 23:02:38,907 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1c358638
+2023-11-12 23:02:38,940 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4c9594f9
+2023-11-12 23:02:38,976 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@778a5778
+2023-11-12 23:02:39,020 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4a348413
+2023-11-12 23:02:39,039 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1935081078, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1, reason: close-tab-closed}
+2023-11-12 23:02:46,963 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 2117138727, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1, reason: websocket-stop}
+2023-11-12 23:02:46,965 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:02:46,965 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2023-11-12 23:02:46,965 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Sun Nov 12 23:02:46 ICT 2023      
+2023-11-12 23:02:46,965 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.001 
+2023-11-12 23:02:46,965 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2023-11-12 23:02:46,965 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2023-11-12 23:02:46,965 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2023-11-12 23:02:46,965 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 314556
+2023-11-12 23:02:46,965 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 46212
+2023-11-12 23:02:46,965 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:02:47,091 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-17 - application requested: default
+2023-11-12 23:02:47,092 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-17 - Creating Application: default
+2023-11-12 23:02:47,092 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-17 - remoteAddress 127.0.0.1
+2023-11-12 23:02:47,092 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-17 - host          localhost:8080
+2023-11-12 23:02:47,092 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-17 - uri           /app/ws/default
+2023-11-12 23:02:47,101 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1851653235, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1}
+2023-11-12 23:02:47,705 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1851653235, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1}
+2023-11-12 23:02:47,728 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@34aa2e05
+2023-11-12 23:02:47,754 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@9ad126d
+2023-11-12 23:02:47,780 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2bea8557
+2023-11-12 23:02:47,805 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@677f9fb0
+2023-11-12 23:02:47,829 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6bda4dbe
+2023-11-12 23:02:47,869 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5b413b1f
+2023-11-12 23:02:47,969 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 2117138727, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1, reason: close-tab-closed}
+2023-11-12 23:02:58,454 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1851653235, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1, reason: tab-closed}
+2023-11-12 23:02:58,457 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:02:58,457 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2023-11-12 23:02:58,457 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Sun Nov 12 23:02:58 ICT 2023      
+2023-11-12 23:02:58,457 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.001 
+2023-11-12 23:02:58,457 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2023-11-12 23:02:58,457 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2023-11-12 23:02:58,457 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2023-11-12 23:02:58,457 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 411360
+2023-11-12 23:02:58,457 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 74409
+2023-11-12 23:02:58,457 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:02:59,456 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1851653235, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1, reason: close-tab-closed}
+2023-11-12 23:03:13,692 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - application requested: default
+2023-11-12 23:03:13,692 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - Creating Application: default
+2023-11-12 23:03:13,692 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - remoteAddress 127.0.0.1
+2023-11-12 23:03:13,692 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - host          localhost:8080
+2023-11-12 23:03:13,692 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - uri           /app/ws/default
+2023-11-12 23:03:13,705 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 666710468, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1}
+2023-11-12 23:03:14,484 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 666710468, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1}
+2023-11-12 23:03:14,518 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4526720
+2023-11-12 23:03:14,545 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@63deba87
+2023-11-12 23:03:14,567 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7825b50c
+2023-11-12 23:03:14,598 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1ac7b480
+2023-11-12 23:03:14,633 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@943b951
+2023-11-12 23:03:14,694 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1ed2d4a9
+2023-11-12 23:04:33,053 [INFO] from com.jpro.activity in scala-execution-context-global-30 - Starting the server
+2023-11-12 23:04:33,055 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 -  *** Starting JPro: https://www.jpro.one/ ***
+2023-11-12 23:04:33,055 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - OS: Windows 11
+2023-11-12 23:04:33,070 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - JPro: 9999.9.9
+2023-11-12 23:04:33,070 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - Java version: 17.0.5
+2023-11-12 23:04:33,070 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - JVM: 17.0.5 Oracle Corporation
+2023-11-12 23:04:33,071 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - JavaFX jar: file:/C:/Users/Admin/.m2/repository/org/openjfx/javafx-graphics/21.0.2.3-jpro+0/javafx-graphics-21.0.2.3-jpro+0-win.jar
+2023-11-12 23:04:33,074 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - Configuring logging from url: 'jar:file:/C:/Users/Admin/.m2/repository/com/sandec/jpro/jpro-server_2.12/9999.9.9/jpro-server_2.12-9999.9.9.jar!/logback-jpro-default.xml'
+2023-11-12 23:04:33,370 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 21.0.2.3-jpro+0-2023-09-27T13-12-33Z
+2023-11-12 23:04:33,436 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - finished init!
+2023-11-12 23:04:33,445 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - [JPro] -> Server started: {start_time: 1699805073053, os_name: Windows 11, jpro_version: 9999.9.9}
+2023-11-12 23:04:33,733 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2023-11-12 23:04:34,141 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2023-11-12 23:04:34,469 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2023-11-12 23:04:34,470 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2023-11-12 23:04:35,147 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - application requested: default
+2023-11-12 23:04:35,155 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - Creating Application: default
+2023-11-12 23:04:35,158 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - remoteAddress 0:0:0:0:0:0:0:1
+2023-11-12 23:04:35,160 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - host          localhost:8080
+2023-11-12 23:04:35,160 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - uri           /app/ws/default
+2023-11-12 23:04:35,384 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1695729356, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:04:38,123 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1695729356, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:04:38,499 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@20e80ddc
+2023-11-12 23:04:38,593 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@58434215
+2023-11-12 23:04:38,623 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7a69e133
+2023-11-12 23:04:38,669 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7f22fc72
+2023-11-12 23:04:38,722 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7c5852cb
+2023-11-12 23:04:38,779 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@d1e9818
+2023-11-12 23:04:38,818 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7d76f5ab
+2023-11-12 23:04:38,840 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3f6c5008
+2023-11-12 23:04:38,871 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@76d56bd6
+2023-11-12 23:04:38,904 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3b7f46b4
+2023-11-12 23:04:38,934 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@549382b4
+2023-11-12 23:04:38,957 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@74e6cf6f
+2023-11-12 23:04:38,982 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3c51a064
+2023-11-12 23:04:39,021 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@72b351a9
+2023-11-12 23:04:39,045 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@45ae386b
+2023-11-12 23:04:39,088 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5411dc96
+2023-11-12 23:04:39,121 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@468f3f4b
+2023-11-12 23:04:39,149 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5b6a7050
+2023-11-12 23:04:39,182 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@162f2e62
+2023-11-12 23:04:39,206 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4e37cd00
+2023-11-12 23:04:39,231 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1351799a
+2023-11-12 23:04:39,264 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@711c149b
+2023-11-12 23:04:39,295 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@467f8d1
+2023-11-12 23:04:39,318 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@797427d3
+2023-11-12 23:04:39,349 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@174e411a
+2023-11-12 23:04:39,376 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5f11093a
+2023-11-12 23:04:39,396 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@47e85d08
+2023-11-12 23:04:39,436 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@ed9d5e4
+2023-11-12 23:04:39,459 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1545e6a3
+2023-11-12 23:04:39,479 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@686c4982
+2023-11-12 23:04:39,501 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6b63e994
+2023-11-12 23:04:39,524 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4b62a9a4
+2023-11-12 23:04:39,548 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7e94ff0e
+2023-11-12 23:04:39,578 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@491498a5
+2023-11-12 23:04:39,597 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@73cc33fd
+2023-11-12 23:04:39,634 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@60e40498
+2023-11-12 23:04:39,657 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@35a0a314
+2023-11-12 23:04:39,677 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@70de1205
+2023-11-12 23:04:39,703 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@45ed1b23
+2023-11-12 23:04:39,721 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@110e56a2
+2023-11-12 23:04:39,753 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@65f67e81
+2023-11-12 23:04:39,771 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2832ca6
+2023-11-12 23:04:39,787 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@68f8d927
+2023-11-12 23:04:39,805 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@597e32e6
+2023-11-12 23:04:39,823 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@37b1a6e
+2023-11-12 23:04:39,849 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@62b67e42
+2023-11-12 23:04:39,861 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@360641e
+2023-11-12 23:04:39,893 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@130b4663
+2023-11-12 23:04:39,911 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@20ce85e0
+2023-11-12 23:04:39,941 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4081c2e5
+2023-11-12 23:04:39,966 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@460b9178
+2023-11-12 23:04:39,987 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@320df3d4
+2023-11-12 23:04:40,015 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1406b309
+2023-11-12 23:04:40,037 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2f7f5d65
+2023-11-12 23:04:40,057 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@48f469f1
+2023-11-12 23:04:40,089 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2f6c1ca7
+2023-11-12 23:04:40,107 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@625bf9a
+2023-11-12 23:04:40,124 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4f53cad7
+2023-11-12 23:04:40,140 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@668d20e9
+2023-11-12 23:04:40,160 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3a718b11
+2023-11-12 23:04:40,197 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1e216619
+2023-11-12 23:04:40,226 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@52316df0
+2023-11-12 23:04:40,258 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@699478d4
+2023-11-12 23:04:40,279 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@18cca643
+2023-11-12 23:04:40,311 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@62c8300
+2023-11-12 23:04:40,353 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4665429b
+2023-11-12 23:04:43,763 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1695729356, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2023-11-12 23:04:43,778 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:04:43,778 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2023-11-12 23:04:43,788 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Sun Nov 12 23:04:43 ICT 2023      
+2023-11-12 23:04:43,788 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.000 
+2023-11-12 23:04:43,788 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2023-11-12 23:04:43,789 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2023-11-12 23:04:43,790 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2023-11-12 23:04:43,790 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 821025
+2023-11-12 23:04:43,790 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 102862
+2023-11-12 23:04:43,790 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:04:43,873 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-20 - application requested: default
+2023-11-12 23:04:43,874 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-20 - Creating Application: default
+2023-11-12 23:04:43,874 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-20 - remoteAddress 0:0:0:0:0:0:0:1
+2023-11-12 23:04:43,874 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-20 - host          localhost:8080
+2023-11-12 23:04:43,874 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-20 - uri           /app/ws/default
+2023-11-12 23:04:43,889 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1579105695, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:04:44,755 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1579105695, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:04:44,825 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7a108358
+2023-11-12 23:04:44,861 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@68375fc8
+2023-11-12 23:04:44,901 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@ea15109
+2023-11-12 23:04:44,949 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@71790e98
+2023-11-12 23:04:44,997 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@342208ca
+2023-11-12 23:04:45,089 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@42e35022
+2023-11-12 23:04:45,147 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1695729356, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2023-11-12 23:05:44,689 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1579105695, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2023-11-12 23:05:44,691 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:05:44,691 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2023-11-12 23:05:44,691 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Sun Nov 12 23:05:44 ICT 2023      
+2023-11-12 23:05:44,691 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.000 
+2023-11-12 23:05:44,691 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2023-11-12 23:05:44,691 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2023-11-12 23:05:44,691 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2023-11-12 23:05:44,691 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 327369
+2023-11-12 23:05:44,691 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 49364
+2023-11-12 23:05:44,691 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:05:44,816 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-19 - application requested: default
+2023-11-12 23:05:44,816 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-19 - Creating Application: default
+2023-11-12 23:05:44,816 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-19 - remoteAddress 0:0:0:0:0:0:0:1
+2023-11-12 23:05:44,816 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-19 - host          localhost:8080
+2023-11-12 23:05:44,816 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-19 - uri           /app/ws/default
+2023-11-12 23:05:44,825 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 166904683, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:05:45,399 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 166904683, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:05:45,430 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@562a0c90
+2023-11-12 23:05:45,454 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@76b2034f
+2023-11-12 23:05:45,477 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2ddb2f62
+2023-11-12 23:05:45,511 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2a91c65b
+2023-11-12 23:05:45,546 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@79aa6a6f
+2023-11-12 23:05:45,591 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@39ffe867
+2023-11-12 23:05:45,693 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1579105695, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2023-11-12 23:06:08,979 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-26 - application requested: default
+2023-11-12 23:06:08,979 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-26 - Creating Application: default
+2023-11-12 23:06:08,979 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-26 - remoteAddress 127.0.0.1
+2023-11-12 23:06:08,979 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-26 - host          localhost:8080
+2023-11-12 23:06:08,979 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-26 - uri           /app/ws/default
+2023-11-12 23:06:08,993 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1390271637, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1}
+2023-11-12 23:06:09,813 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1390271637, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1}
+2023-11-12 23:06:09,852 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5d0c4cb0
+2023-11-12 23:06:09,889 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@dd00a15
+2023-11-12 23:06:09,924 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@38374ac5
+2023-11-12 23:06:09,968 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6a5aaf24
+2023-11-12 23:06:10,021 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@183f3e55
+2023-11-12 23:06:10,115 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@12d30af4
+2023-11-12 23:06:12,780 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1390271637, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1, reason: tab-closed}
+2023-11-12 23:06:12,783 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:06:12,783 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2023-11-12 23:06:12,784 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Sun Nov 12 23:06:12 ICT 2023      
+2023-11-12 23:06:12,784 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.002 
+2023-11-12 23:06:12,784 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2023-11-12 23:06:12,784 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2023-11-12 23:06:12,784 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2023-11-12 23:06:12,784 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 298098
+2023-11-12 23:06:12,784 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 40030
+2023-11-12 23:06:12,784 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:06:13,790 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1390271637, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1, reason: close-tab-closed}
+2023-11-12 23:06:14,534 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - application requested: 666710468!default
+2023-11-12 23:06:14,534 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - Creating Application: 666710468!default
+2023-11-12 23:06:14,535 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - remoteAddress 127.0.0.1
+2023-11-12 23:06:14,535 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - host          localhost:8080
+2023-11-12 23:06:14,535 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - uri           /app/ws/666710468!default
+2023-11-12 23:06:14,541 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1714554844, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1}
+2023-11-12 23:06:15,176 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1714554844, browser: Unknown, browser_url: http://localhost:8080/, client_ip: 127.0.0.1}
+2023-11-12 23:06:15,203 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6aeb81e8
+2023-11-12 23:06:15,237 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@208a0930
+2023-11-12 23:06:15,270 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@169572d0
+2023-11-12 23:06:15,311 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4935ccc2
+2023-11-12 23:06:15,350 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2cf8341c
+2023-11-12 23:06:15,404 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1dad81f4
+2023-11-12 23:07:51,629 [INFO] from com.jpro.activity in scala-execution-context-global-30 - Starting the server
+2023-11-12 23:07:51,631 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 -  *** Starting JPro: https://www.jpro.one/ ***
+2023-11-12 23:07:51,631 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - OS: Windows 11
+2023-11-12 23:07:51,649 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - JPro: 9999.9.9
+2023-11-12 23:07:51,649 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - Java version: 17.0.5
+2023-11-12 23:07:51,649 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - JVM: 17.0.5 Oracle Corporation
+2023-11-12 23:07:51,650 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - JavaFX jar: file:/C:/Users/Admin/.m2/repository/org/openjfx/javafx-graphics/21.0.2.3-jpro+0/javafx-graphics-21.0.2.3-jpro+0-win.jar
+2023-11-12 23:07:51,651 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - Configuring logging from url: 'jar:file:/C:/Users/Admin/.m2/repository/com/sandec/jpro/jpro-server_2.12/9999.9.9/jpro-server_2.12-9999.9.9.jar!/logback-jpro-default.xml'
+2023-11-12 23:07:51,958 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 21.0.2.3-jpro+0-2023-09-27T13-12-33Z
+2023-11-12 23:07:52,018 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - finished init!
+2023-11-12 23:07:52,020 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - [JPro] -> Server started: {start_time: 1699805271628, os_name: Windows 11, jpro_version: 9999.9.9}
+2023-11-12 23:07:52,345 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2023-11-12 23:07:52,763 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2023-11-12 23:07:53,104 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2023-11-12 23:07:53,105 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2023-11-12 23:07:53,824 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - application requested: default
+2023-11-12 23:07:53,834 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - Creating Application: default
+2023-11-12 23:07:53,838 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - remoteAddress 0:0:0:0:0:0:0:1
+2023-11-12 23:07:53,840 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - host          localhost:8080
+2023-11-12 23:07:53,840 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - uri           /app/ws/default
+2023-11-12 23:07:54,024 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1541157521, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:07:56,961 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1541157521, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:07:57,340 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6c58c212
+2023-11-12 23:07:57,424 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7503d08
+2023-11-12 23:07:57,458 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6afe5470
+2023-11-12 23:07:57,504 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1933cd35
+2023-11-12 23:07:57,542 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1d92e574
+2023-11-12 23:07:57,583 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3df440b8
+2023-11-12 23:07:57,619 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5321beea
+2023-11-12 23:07:57,656 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@28e18f7e
+2023-11-12 23:07:57,683 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@625d8a84
+2023-11-12 23:07:57,705 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@104140eb
+2023-11-12 23:07:57,726 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5b8fa95d
+2023-11-12 23:07:57,751 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5130ef32
+2023-11-12 23:07:57,777 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7853ccd2
+2023-11-12 23:07:57,794 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1d7d4078
+2023-11-12 23:07:57,823 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@197a5284
+2023-11-12 23:07:57,867 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5876c6a1
+2023-11-12 23:07:57,892 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@47b9c412
+2023-11-12 23:07:57,917 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2e47756e
+2023-11-12 23:07:57,941 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@36b25edf
+2023-11-12 23:07:57,964 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1f1e5185
+2023-11-12 23:07:57,995 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2e5fd5dd
+2023-11-12 23:07:58,027 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@654fc362
+2023-11-12 23:07:58,056 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@333e8a54
+2023-11-12 23:07:58,076 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1607b0d3
+2023-11-12 23:07:58,100 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1138c033
+2023-11-12 23:07:58,127 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@8bc31d5
+2023-11-12 23:07:58,157 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4a2bda57
+2023-11-12 23:07:58,177 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@437cccbc
+2023-11-12 23:07:58,198 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@416fd16
+2023-11-12 23:07:58,223 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@402d7efe
+2023-11-12 23:07:58,246 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@79d981b5
+2023-11-12 23:07:58,282 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@371efc5d
+2023-11-12 23:07:58,316 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@9749ab2
+2023-11-12 23:07:58,332 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@65212f90
+2023-11-12 23:07:58,349 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@289769c1
+2023-11-12 23:07:58,378 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@54185cdf
+2023-11-12 23:07:58,407 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@11fd5d62
+2023-11-12 23:07:58,437 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7b884add
+2023-11-12 23:07:58,470 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@19a09999
+2023-11-12 23:07:58,493 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@33886cba
+2023-11-12 23:07:58,520 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7e41f2d7
+2023-11-12 23:07:58,538 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@53720fe6
+2023-11-12 23:07:58,560 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@25e4b534
+2023-11-12 23:07:58,579 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@50af45da
+2023-11-12 23:07:58,609 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@35734cbf
+2023-11-12 23:07:58,634 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@47afaf67
+2023-11-12 23:07:58,677 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1a429c
+2023-11-12 23:07:58,699 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6f4d7c61
+2023-11-12 23:07:58,729 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5fa9721f
+2023-11-12 23:07:58,748 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2d764fe
+2023-11-12 23:07:58,765 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@69cfbbc3
+2023-11-12 23:07:58,780 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@32746d95
+2023-11-12 23:07:58,801 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2072ddda
+2023-11-12 23:07:58,819 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@47e752c4
+2023-11-12 23:07:58,839 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@41a6ca6b
+2023-11-12 23:07:58,860 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@101a7f4
+2023-11-12 23:07:58,883 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@76e973a5
+2023-11-12 23:07:58,902 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5f3f9573
+2023-11-12 23:07:58,924 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@745ee3fc
+2023-11-12 23:07:58,944 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@602285d9
+2023-11-12 23:07:58,966 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@52db6010
+2023-11-12 23:07:58,981 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@9ee6443
+2023-11-12 23:07:59,014 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@c47d4e
+2023-11-12 23:07:59,043 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1945b013
+2023-11-12 23:07:59,064 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2398b9ab
+2023-11-12 23:07:59,091 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1e6f261e
+2023-11-12 23:08:02,403 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1541157521, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2023-11-12 23:08:02,411 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:08:02,411 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2023-11-12 23:08:02,418 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Sun Nov 12 23:08:02 ICT 2023      
+2023-11-12 23:08:02,418 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.001 
+2023-11-12 23:08:02,418 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2023-11-12 23:08:02,419 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2023-11-12 23:08:02,419 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2023-11-12 23:08:02,419 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 851081
+2023-11-12 23:08:02,419 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 111505
+2023-11-12 23:08:02,419 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:08:02,499 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - application requested: default
+2023-11-12 23:08:02,499 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - Creating Application: default
+2023-11-12 23:08:02,499 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - remoteAddress 0:0:0:0:0:0:0:1
+2023-11-12 23:08:02,499 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - host          localhost:8080
+2023-11-12 23:08:02,499 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - uri           /app/ws/default
+2023-11-12 23:08:02,510 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 2105777141, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:08:03,192 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 2105777141, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:08:03,235 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@15453e7f
+2023-11-12 23:08:03,268 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@50239998
+2023-11-12 23:08:03,298 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7dcda05f
+2023-11-12 23:08:03,337 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@63319c25
+2023-11-12 23:08:03,375 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@61f1703
+2023-11-12 23:08:03,436 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@34b3035b
+2023-11-12 23:08:03,477 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1541157521, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2023-11-12 23:08:51,922 [INFO] from com.jpro.activity in scala-execution-context-global-30 - Starting the server
+2023-11-12 23:08:51,924 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 -  *** Starting JPro: https://www.jpro.one/ ***
+2023-11-12 23:08:51,924 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - OS: Windows 11
+2023-11-12 23:08:51,940 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - JPro: 9999.9.9
+2023-11-12 23:08:51,940 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - Java version: 17.0.5
+2023-11-12 23:08:51,940 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - JVM: 17.0.5 Oracle Corporation
+2023-11-12 23:08:51,943 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - JavaFX jar: file:/C:/Users/Admin/.m2/repository/org/openjfx/javafx-graphics/21.0.2.3-jpro+0/javafx-graphics-21.0.2.3-jpro+0-win.jar
+2023-11-12 23:08:51,944 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - Configuring logging from url: 'jar:file:/C:/Users/Admin/.m2/repository/com/sandec/jpro/jpro-server_2.12/9999.9.9/jpro-server_2.12-9999.9.9.jar!/logback-jpro-default.xml'
+2023-11-12 23:08:52,197 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 21.0.2.3-jpro+0-2023-09-27T13-12-33Z
+2023-11-12 23:08:52,246 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - finished init!
+2023-11-12 23:08:52,249 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-30 - [JPro] -> Server started: {start_time: 1699805331921, os_name: Windows 11, jpro_version: 9999.9.9}
+2023-11-12 23:08:52,634 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2023-11-12 23:08:53,023 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2023-11-12 23:08:53,367 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2023-11-12 23:08:53,368 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2023-11-12 23:08:54,115 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - application requested: default
+2023-11-12 23:08:54,121 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - Creating Application: default
+2023-11-12 23:08:54,123 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - remoteAddress 0:0:0:0:0:0:0:1
+2023-11-12 23:08:54,125 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - host          localhost:8080
+2023-11-12 23:08:54,125 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - uri           /app/ws/default
+2023-11-12 23:08:54,348 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1528347252, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:08:57,089 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1528347252, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:08:57,455 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@191a7887
+2023-11-12 23:08:57,547 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@77207ee4
+2023-11-12 23:08:57,579 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@131a6b6b
+2023-11-12 23:08:57,625 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7c908f96
+2023-11-12 23:08:57,670 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@42d8a968
+2023-11-12 23:08:57,714 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@172b4a87
+2023-11-12 23:08:57,736 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7b0a4738
+2023-11-12 23:08:57,759 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@48099907
+2023-11-12 23:08:57,784 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2956a354
+2023-11-12 23:08:57,818 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4e831dfc
+2023-11-12 23:08:57,847 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@19ba02ee
+2023-11-12 23:08:57,879 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@45c31cf6
+2023-11-12 23:08:57,899 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@434fbc91
+2023-11-12 23:08:57,926 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@26b2d0d4
+2023-11-12 23:08:57,952 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2f195977
+2023-11-12 23:08:57,985 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5c055ff8
+2023-11-12 23:08:58,005 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@125a2bea
+2023-11-12 23:08:58,037 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3c6cb668
+2023-11-12 23:08:58,069 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5385c33e
+2023-11-12 23:08:58,090 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7291fca0
+2023-11-12 23:08:58,111 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@30261727
+2023-11-12 23:08:58,135 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2b79e3c8
+2023-11-12 23:08:58,153 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7bb7641
+2023-11-12 23:08:58,175 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@f337f94
+2023-11-12 23:08:58,210 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@61826b33
+2023-11-12 23:08:58,237 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@30a80f01
+2023-11-12 23:08:58,263 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3e6ef101
+2023-11-12 23:08:58,286 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2de77664
+2023-11-12 23:08:58,315 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@55d0aba6
+2023-11-12 23:08:58,337 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5dc8cfd0
+2023-11-12 23:08:58,355 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@50c4e283
+2023-11-12 23:08:58,386 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7d2500fc
+2023-11-12 23:08:58,418 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@76033cf7
+2023-11-12 23:08:58,442 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@59560609
+2023-11-12 23:08:58,460 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@31145184
+2023-11-12 23:08:58,483 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@67c0218c
+2023-11-12 23:08:58,505 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4ad2d675
+2023-11-12 23:08:58,536 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@547c69df
+2023-11-12 23:08:58,561 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3b8ed823
+2023-11-12 23:08:58,591 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@93fe73d
+2023-11-12 23:08:58,620 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1aec67be
+2023-11-12 23:08:58,644 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@50029357
+2023-11-12 23:08:58,674 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2f088bef
+2023-11-12 23:08:58,697 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@68584607
+2023-11-12 23:08:58,718 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@726253bc
+2023-11-12 23:08:58,735 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@78e2883b
+2023-11-12 23:08:58,753 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@e98f9ed
+2023-11-12 23:08:58,770 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@18ee32dd
+2023-11-12 23:08:58,799 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4437c4f
+2023-11-12 23:08:58,816 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@49196a2d
+2023-11-12 23:08:58,847 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@676a7a5d
+2023-11-12 23:08:58,868 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@75c4fe6c
+2023-11-12 23:08:58,897 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@422f8265
+2023-11-12 23:08:58,924 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2bf519ce
+2023-11-12 23:08:58,949 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@31767d2d
+2023-11-12 23:08:58,973 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@164e8fba
+2023-11-12 23:08:58,999 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@58b5d8b3
+2023-11-12 23:08:59,028 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1d171bb4
+2023-11-12 23:08:59,053 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@950d545
+2023-11-12 23:08:59,078 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@351f2cc7
+2023-11-12 23:08:59,117 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@387cd0af
+2023-11-12 23:08:59,143 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7e326a7c
+2023-11-12 23:08:59,159 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@8f8470a
+2023-11-12 23:08:59,212 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@359a6fea
+2023-11-12 23:08:59,242 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@79d16336
+2023-11-12 23:08:59,286 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2acbaab7
+2023-11-12 23:09:02,047 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1528347252, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2023-11-12 23:09:02,062 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:09:02,062 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2023-11-12 23:09:02,071 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Sun Nov 12 23:09:02 ICT 2023      
+2023-11-12 23:09:02,072 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.021 
+2023-11-12 23:09:02,072 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.034  
+2023-11-12 23:09:02,073 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2023-11-12 23:09:02,073 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2023-11-12 23:09:02,073 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 818608
+2023-11-12 23:09:02,073 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 101320
+2023-11-12 23:09:02,073 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:09:02,147 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-22 - application requested: default
+2023-11-12 23:09:02,147 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-22 - Creating Application: default
+2023-11-12 23:09:02,147 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-22 - remoteAddress 0:0:0:0:0:0:0:1
+2023-11-12 23:09:02,147 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-22 - host          localhost:8080
+2023-11-12 23:09:02,147 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-22 - uri           /app/ws/default
+2023-11-12 23:09:02,157 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1474630533, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:09:04,113 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1474630533, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:09:04,123 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1528347252, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2023-11-12 23:09:04,159 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@450613c0
+2023-11-12 23:09:04,194 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1864fe68
+2023-11-12 23:09:04,231 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@45724e5
+2023-11-12 23:09:04,280 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7af4b4ed
+2023-11-12 23:09:04,322 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@51929b96
+2023-11-12 23:09:04,367 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6b2090c1
+2023-11-12 23:09:04,400 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7c9526b9
+2023-11-12 23:09:04,432 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@320c3ba2
+2023-11-12 23:09:04,463 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1507b4b8
+2023-11-12 23:09:04,508 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1031d8aa
+2023-11-12 23:09:04,554 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@232b6f98
+2023-11-12 23:09:04,600 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@172b3ad0
+2023-11-12 23:09:04,642 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@23c10264
+2023-11-12 23:09:04,680 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5f37af09
+2023-11-12 23:09:04,713 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@76c4d2af
+2023-11-12 23:09:04,739 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2c1aecec
+2023-11-12 23:09:04,765 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@22e47b46
+2023-11-12 23:09:04,787 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@673f0de0
+2023-11-12 23:09:04,823 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1c8e272
+2023-11-12 23:09:04,850 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@67fa56e0
+2023-11-12 23:09:04,878 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@41def7b3
+2023-11-12 23:09:04,912 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4dcc117d
+2023-11-12 23:09:04,940 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1ddd32f0
+2023-11-12 23:09:04,966 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@ac71285
+2023-11-12 23:09:04,995 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@712c90db
+2023-11-12 23:09:05,030 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@42136e25
+2023-11-12 23:09:05,057 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4b63d8b1
+2023-11-12 23:09:05,082 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1ffcbcf1
+2023-11-12 23:09:05,118 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@9015bc2
+2023-11-12 23:09:05,158 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7e78e140
+2023-11-12 23:09:05,178 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2892efd3
+2023-11-12 23:09:05,217 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7afefd30
+2023-11-12 23:09:05,245 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3b9ebdcb
+2023-11-12 23:09:05,284 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@248fb514
+2023-11-12 23:09:05,316 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@54b0cd35
+2023-11-12 23:09:05,354 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@61a871a6
+2023-11-12 23:09:05,380 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@486600c9
+2023-11-12 23:09:05,411 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2957ed7
+2023-11-12 23:09:05,440 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6ae83c43
+2023-11-12 23:09:05,467 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2e26774b
+2023-11-12 23:09:05,492 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4e9f5c1c
+2023-11-12 23:09:05,529 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4995f737
+2023-11-12 23:09:05,544 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@128e9de7
+2023-11-12 23:09:05,563 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4d1e6de9
+2023-11-12 23:09:05,594 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@17a3550d
+2023-11-12 23:09:05,639 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6eb0bfb0
+2023-11-12 23:09:05,671 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@111e6353
+2023-11-12 23:09:05,711 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2e54c955
+2023-11-12 23:09:05,746 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@146479a5
+2023-11-12 23:09:05,774 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@15e5056e
+2023-11-12 23:09:05,796 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@62ae723b
+2023-11-12 23:09:05,825 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@28f7b7d2
+2023-11-12 23:09:05,847 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3355a9ae
+2023-11-12 23:09:05,870 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5d4d93ba
+2023-11-12 23:09:05,895 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@457c873d
+2023-11-12 23:09:05,930 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4f4f900a
+2023-11-12 23:09:05,948 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4520fb27
+2023-11-12 23:09:05,977 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@70ae9bac
+2023-11-12 23:09:06,008 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6395e5e5
+2023-11-12 23:09:06,023 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@38a3f6f8
+2023-11-12 23:09:06,047 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3095531c
+2023-11-12 23:09:06,077 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@56faf724
+2023-11-12 23:09:06,109 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5a2d3e31
+2023-11-12 23:09:06,140 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@39c74cd7
+2023-11-12 23:09:06,175 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3c76620c
+2023-11-12 23:09:06,212 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1927226b
+2023-11-12 23:09:08,642 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1474630533, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2023-11-12 23:09:08,651 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:09:08,651 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2023-11-12 23:09:08,651 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Sun Nov 12 23:09:08 ICT 2023      
+2023-11-12 23:09:08,651 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.001 
+2023-11-12 23:09:08,651 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2023-11-12 23:09:08,651 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2023-11-12 23:09:08,651 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2023-11-12 23:09:08,651 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 816243
+2023-11-12 23:09:08,651 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 100281
+2023-11-12 23:09:08,651 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2023-11-12 23:09:08,762 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - application requested: default
+2023-11-12 23:09:08,762 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - Creating Application: default
+2023-11-12 23:09:08,762 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - remoteAddress 0:0:0:0:0:0:0:1
+2023-11-12 23:09:08,762 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - host          localhost:8080
+2023-11-12 23:09:08,762 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - uri           /app/ws/default
+2023-11-12 23:09:08,772 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1790093497, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:09:10,520 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1790093497, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2023-11-12 23:09:10,523 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1474630533, browser: Microsoft Edge 119.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2023-11-12 23:09:10,552 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2fd9e8ae
+2023-11-12 23:09:10,588 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@45be4a3f
+2023-11-12 23:09:10,618 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4808125d
+2023-11-12 23:09:10,666 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1e4dbde5
+2023-11-12 23:09:10,709 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@36b3c726
+2023-11-12 23:09:10,755 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@49323ab
+2023-11-12 23:09:10,797 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@682688af
+2023-11-12 23:09:10,837 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@b5ca214
+2023-11-12 23:09:10,872 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6320f28c
+2023-11-12 23:09:10,901 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5245a2ba
+2023-11-12 23:09:10,946 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2f209f37
+2023-11-12 23:09:10,981 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@406fdc24
+2023-11-12 23:09:11,008 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7e0b6959
+2023-11-12 23:09:11,030 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@712a0aad
+2023-11-12 23:09:11,057 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@d4746fb
+2023-11-12 23:09:11,088 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@d728ff8
+2023-11-12 23:09:11,120 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@307cca02
+2023-11-12 23:09:11,147 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@25c580ce
+2023-11-12 23:09:11,163 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6f3d899e
+2023-11-12 23:09:11,205 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2a87d9d6
+2023-11-12 23:09:11,238 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@556edd48
+2023-11-12 23:09:11,267 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3fd925a7
+2023-11-12 23:09:11,292 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@749fe8d6
+2023-11-12 23:09:11,327 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5d23c2c
+2023-11-12 23:09:11,352 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@9ef6a5
+2023-11-12 23:09:11,385 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@25e30650
+2023-11-12 23:09:11,418 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@68e9428e
+2023-11-12 23:09:11,450 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@78977e34
+2023-11-12 23:09:11,496 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@423083b
+2023-11-12 23:09:11,516 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@21f137ea
+2023-11-12 23:09:11,540 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@11d1c4ca
+2023-11-12 23:09:11,571 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@408b83dc
+2023-11-12 23:09:11,613 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5c9f76a2
+2023-11-12 23:09:11,637 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@48de4fc
+2023-11-12 23:09:11,657 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7047b0e2
+2023-11-12 23:09:11,677 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@165439b9
+2023-11-12 23:09:11,713 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@549d4512
+2023-11-12 23:09:11,747 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@d0a6a66
+2023-11-12 23:09:11,775 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2406ae73
+2023-11-12 23:09:11,807 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@1b37f70
+2023-11-12 23:09:11,826 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@21d3a9a5
+2023-11-12 23:09:11,844 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@53108b67
+2023-11-12 23:09:11,860 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@32220c97
+2023-11-12 23:09:11,877 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6f6d7708
+2023-11-12 23:09:11,893 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7d2b34cf
+2023-11-12 23:09:11,912 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@64e7233b
+2023-11-12 23:09:11,936 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3267d0bb
+2023-11-12 23:09:11,970 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4385f12d
+2023-11-12 23:09:11,995 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@20aadb8a
+2023-11-12 23:09:12,030 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@63854c53
+2023-11-12 23:09:12,077 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@77461c3
+2023-11-12 23:09:12,094 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5a3fb4e4
+2023-11-12 23:09:12,115 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4e960177
+2023-11-12 23:09:12,149 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@cd1607b
+2023-11-12 23:09:12,165 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@195e8b5
+2023-11-12 23:09:12,185 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@189730a7
+2023-11-12 23:09:12,212 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@76ac49e8
+2023-11-12 23:09:12,230 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@392460a9
+2023-11-12 23:09:12,260 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3b72874e
+2023-11-12 23:09:12,295 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@84305ce
+2023-11-12 23:09:12,328 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@62e7ad44
+2023-11-12 23:09:12,365 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4fbf853b
+2023-11-12 23:09:12,389 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3ee59ba5
+2023-11-12 23:09:12,408 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@4225b5f9
+2023-11-12 23:09:12,426 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7d658813
+2023-11-12 23:09:12,450 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7b3593ca
+2023-11-12 23:09:13,761 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@65511d08
+2023-11-12 23:09:13,810 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5e6d5254
+2023-11-12 23:09:13,842 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@718528e5
+2023-11-12 23:09:13,874 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@546a9395
+2023-11-12 23:09:13,913 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@2e8ccf03
+2023-11-12 23:09:13,946 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@a833863
+2023-11-12 23:09:13,994 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@12d0a84b
+2023-11-12 23:09:14,035 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@513427f0
+2023-11-12 23:09:14,062 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@57f9dfe0
+2023-11-12 23:09:14,104 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6b6a2ac6
+2023-11-12 23:09:14,156 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5cabb03e
+2023-11-12 23:09:14,190 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@5383fcf7
+2023-11-12 23:09:14,220 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@6b7d5b78
+2023-11-12 23:09:14,264 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@244964d0
+2023-11-12 23:09:14,287 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@95cb48b
+2023-11-12 23:09:14,325 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@f35820f
+2023-11-12 23:09:14,358 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@3c42805a
+2023-11-12 23:09:14,388 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@7a01bb9d
+2023-11-12 23:09:14,426 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@22a2ea2c
+2023-11-12 23:09:14,461 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image, lossless: true filetype: png img: javafx.scene.image.Image@49ce4a6e

@@ -82,12 +82,11 @@ public class MainFormController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
         // one init per start
-        if (!init) {
-            System.out.println("do it!");
-            DataInitializer dataInitializer = new DataInitializer();
-            podcastList = dataInitializer.podcastList();
 
-        }
+        System.out.println("do it!");
+        DataInitializer dataInitializer = new DataInitializer();
+        podcastList = dataInitializer.podcastList();
+
         staticMainPane = mainPane;
         staticModelLabel = modeLabel;
         staticBorderpane = borderPane;
